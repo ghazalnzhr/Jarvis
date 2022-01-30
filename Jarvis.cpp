@@ -85,7 +85,8 @@ void program(char input)
 
 void showMenu()
 {
-    cout << "033[\33mOPTIONS:\n";
+    system("clear");
+    cout << "OPTIONS:\n";
     cout << "\033[35ma: calculator\n";
     cout << "b: BMI💪🏻\n";
     cout << "c: word convertor\n";
